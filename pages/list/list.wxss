@@ -1,0 +1,58 @@
+/* pages/list/list.wxss */
+page {
+  background-color: #eee;
+}
+.search {
+  margin: 10rpx 20rpx;
+  padding: 10rpx;
+  border: 1rpx solid #e0e0e0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10rpx;
+}
+.search icon {
+  width: 46rpx;
+}
+
+.shop-list {
+  margin: 0;
+  background-color: #fff;
+  font-size: 30rpx;
+  color: #666;
+}
+.shop-list .shop-item {
+  display: flex;
+  padding: 10rpx;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.shop-list .shop-item image {
+  width: 180rpx;
+  height: 180rpx;
+  padding-right: 10rpx;
+}
+.info {
+  flex: 6;
+}
+.name {
+  color: #000;
+  font-size: 34rpx;
+}
+.name, .phone, .address, .hours {
+  display: block;
+}
+.score {
+  text-align: center;
+  line-height: 40rpx;
+  width: 80rpx;
+  height: 40rpx;
+  border-radius: 10rpx;
+  background-color: lightcoral;
+  color: #fff;
+}
+
+.loading {
+  padding: 30rpx;
+  text-align: center;
+}
